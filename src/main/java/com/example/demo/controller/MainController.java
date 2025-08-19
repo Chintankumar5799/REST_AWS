@@ -9,7 +9,8 @@ public class MainController {
 	
 	@GetMapping("/greeting")
 	public String hello(){
-		return "hello";
+//		return "hello";
+		return "changes for conflict for branch2";
 	}
 	
 	@GetMapping("/response")
