@@ -10,7 +10,7 @@ public class MainController {
 	@GetMapping("/greeting")
 	public String hello(){
 
-		return "hello";
+		return "hello, Now Jenkin is also added";
 //		return "changes for conflict";
 
 	}
