@@ -10,6 +10,7 @@ public class MainController {
 	@GetMapping("/greeting")
 	public String hello(){
 		return "hello";
+//		return "changes for conflict";
 	}
 	
 	@GetMapping("/response")
