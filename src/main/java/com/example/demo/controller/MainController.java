@@ -10,7 +10,7 @@ public class MainController {
 	@GetMapping("/greeting")
 	public String hello(){
 
-		return "hello, Now Jenkin is also added and no need to start it to background";
+		return "hello, Final output";
 //		return "changes for conflict";
 
 	}
