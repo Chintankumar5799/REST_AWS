@@ -17,7 +17,7 @@ public class MainController {
 	
 	@GetMapping("/response")
 	public String response(){
-		return "how are you";
+		return "Welcome, how are you";
 	}
 
 }
