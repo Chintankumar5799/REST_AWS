@@ -23,7 +23,7 @@ public class MainController {
 	
 	@GetMapping("/greeting")
 	public String hello(){
-		return "hello, Final output";
+		return "hello, Final output, for QA";
 	}
 	
 	@GetMapping("/getName")
